@@ -79,10 +79,8 @@ html {
   margin-right: 0;
 }
 .navigation__arrow {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-  display: inline-block;
-  width: 5px;
-  height: 8px;
+  width: 8px;
+  height: 5px;
   margin-left: 11px;
 }
 
