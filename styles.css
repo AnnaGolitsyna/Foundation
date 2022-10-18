@@ -1,18 +1,3 @@
-html {
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
-}
-
-.page {
-  width: 1400px;
-  margin: auto;
-}
-
-.top-section {
-  background-color: #f3c6bd;
-  padding-top: 39px;
-}
-
 .header {
   width: 1140px;
   height: 62px;
@@ -82,6 +67,115 @@ html {
   width: 8px;
   height: 5px;
   margin-left: 11px;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer-navigation {
+  width: 1140px;
+  height: 338px;
+  margin: 0 auto;
+  display: flex;
+}
+.footer .about-company {
+  margin-top: 44px;
+}
+.footer__description {
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  margin-top: 26px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.footer .downloads {
+  margin-top: 25px;
+}
+.footer .downloads__item {
+  margin-right: 10px;
+}
+.footer .adsitional-navigation {
+  margin-top: 60px;
+  margin-left: auto;
+  display: flex;
+}
+.footer .adsitional-navigation__column {
+  margin-right: 29px;
+}
+.footer .adsitional-navigation .nav-links {
+  width: 265px;
+}
+.footer .adsitional-navigation .nav-links__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+  color: #2b292d;
+}
+.footer .adsitional-navigation .nav-links__list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(43, 41, 45, 0.6);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 18px;
+}
+.footer-line {
+  width: 100%;
+  border-top: 1px solid #2b292d;
+  opacity: 0.1;
+  margin: 0;
+}
+.footer-links {
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.footer-links .terms {
+  line-height: 50px;
+  font-size: 14px;
+}
+.footer-links .terms__items {
+  text-decoration: none;
+  margin-right: 22px;
+  color: rgba(43, 41, 45, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer-links .social-links {
+  margin-left: auto;
+}
+.footer-links .social-links_item {
+  margin-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.page {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.top-section {
+  background-color: #f3c6bd;
+  padding-top: 39px;
 }
 
 /*# sourceMappingURL=styles.css.map */
