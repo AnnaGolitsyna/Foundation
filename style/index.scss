@@ -1,11 +1,16 @@
 @import 'header.scss';
+@import 'headline.scss';
 @import 'footer.scss';
+@import 'common.scss';
+
+
 * {
     box-sizing: border-box;
 }
 html {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
+  color: #2b292d;
 }
 .page {
   width: 1400px;
