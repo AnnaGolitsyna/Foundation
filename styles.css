@@ -23,7 +23,7 @@
 
 .logo {
   display: flex;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .logo__image {
   width: 60px;
@@ -49,7 +49,7 @@
 
 .navigation {
   margin-left: auto;
-  margin-top: 17px;
+  margin-top: 20px;
   margin-right: 75px;
 }
 .navigation__item {
@@ -70,7 +70,8 @@
   height: 5px;
   margin-left: 11px;
 }
-.navigation-button {
+
+.header-button {
   margin-top: 5px;
 }
 
