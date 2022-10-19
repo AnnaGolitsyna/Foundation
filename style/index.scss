@@ -13,6 +13,17 @@ html {
   color: #2b292d;
 }
 .page {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.top-section {
+  background-color: #f3c6bd;
+  // padding-top: 39px;
+}
+
+@media screen and (min-width: 400px) {
+  .page {
   width: 1400px;
   margin: auto;
   display: flex;
@@ -23,3 +34,7 @@ html {
   background-color: #f3c6bd;
   padding-top: 39px;
 }
+
+}
+
+
