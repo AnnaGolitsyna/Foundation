@@ -8,6 +8,7 @@
 }
 .logo {
   display: flex;
+  margin-left: 10px;
   &__image {
     width: 60px;
     height: 60px;
@@ -32,7 +33,7 @@
 }
 .navigation {
   margin-left: auto;
-  margin-top: 7px;
+  margin-top: 17px;
   margin-right: 75px;
   &__item {
     font-size: 18px;
@@ -51,5 +52,8 @@
     width: 8px;
     height: 5px;
     margin-left: 11px;
+  }
+  &-button {
+    margin-top: 5px;
   }
 }
