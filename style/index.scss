@@ -1,8 +1,8 @@
+@import 'breakpoints.scss';
 @import 'header.scss';
 @import 'headline.scss';
 @import 'footer.scss';
 @import 'common.scss';
-
 
 * {
     box-sizing: border-box;
@@ -17,10 +17,7 @@ html {
   overflow-x: hidden;
 }
 
-.top-section {
-  background-color: #f3c6bd;
-  // padding-top: 39px;
-}
+
 
 @media screen and (min-width: 400px) {
   .page {
@@ -30,10 +27,7 @@ html {
   flex-direction: column;
   min-height: 100vh;
 }
-.top-section {
-  background-color: #f3c6bd;
-  padding-top: 39px;
-}
+
 
 }
 
