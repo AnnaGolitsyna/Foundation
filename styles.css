@@ -25,7 +25,6 @@
 
 .logo {
   display: flex;
-  margin-left: 15px;
 }
 .logo__image {
   width: 48px;
@@ -82,7 +81,7 @@
   }
   .logo {
     display: flex;
-    margin-left: 15px;
+    margin-left: 0;
   }
   .logo__image {
     width: 60px;
@@ -112,7 +111,6 @@
   .navigation {
     display: block;
     margin-left: auto;
-    margin-top: 15px;
     margin-right: 75px;
   }
   .navigation__item {
@@ -135,7 +133,6 @@
   }
   .header-button {
     display: block;
-    margin-top: 5px;
   }
 }
 .action__button {
