@@ -4,10 +4,12 @@
 .order {
   padding: 50px 15px;
   background: #f4f5f7;
+  display: flex;
+  flex-direction: column;
 
   @include for-large-up {
+    flex-direction: row;
     padding: 73px 0 72px 0;
-    display: flex;
     justify-content: center;
     align-items: flex-start;
   }
@@ -17,8 +19,10 @@
 
   &__illustration {
     max-width: 200px;
+    margin: auto;
 
     @include for-large-up {
+      margin: 0;
       max-width: 269px;
       margin-right: 121px;
     }
@@ -38,7 +42,7 @@
     line-height: 32px;
     margin-top: 18px;
     @include for-large-up {
-        margin-top: 12px;
+      margin-top: 12px;
     }
   }
   &__form {
@@ -64,7 +68,6 @@
     }
     @include for-large-up {
       margin-top: 0;
-
     }
   }
   &__button {
@@ -86,7 +89,6 @@
     color: rgba(43, 41, 45, 0.6);
     @include for-large-up {
       margin-top: 10px;
-
     }
   }
   &__terms-link {

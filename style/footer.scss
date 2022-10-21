@@ -1,63 +1,37 @@
+@import 'common.scss';
+@import 'breakpoints.scss';
+
 .footer {
   margin-top: auto;
   display: flex;
   flex-direction: column;
 
   &-navigation {
-    width: 1140px;
-    height: 338px;
-    margin: 0 auto;
     display: flex;
-  }
+    flex-direction: column;
 
-  .about-company {
-    margin-top: 44px;
-  }
+    @include for-large-up {
 
+        flex-direction: row;
+        width: 1140px;
+        height: 338px;
+        margin: 0 auto;
+
+    }
+    .about-company {
+      margin-top: 44px;
+    }
+  }
   &__description {
-    line-height: 26px;
-    font-size: 18px;
-    width: 360px;
-    margin-top: 26px;
-    color: rgba(43, 41, 45, 0.6);
-  }
-
-  .downloads {
-    margin-top: 25px;
-
-    &__item {
-      margin-right: 10px;
+    @include for-large-down {
+      display: none;
     }
-  }
-
-  .adsitional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
-    display: flex;
-
-    &__column {
-      margin-right: 29px;
-    }
-    .nav-links {
-      width: 265px;
-
-      &__title {
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 28px;
-        margin: 0;
-        color: #2b292d;
-      }
-      &__list {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        color: rgba(43, 41, 45, 0.6);
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        margin-top: 18px;
-      }
+    @include for-large-up {
+      line-height: 26px;
+      font-size: 18px;
+      width: 360px;
+      margin-top: 26px;
+      color: rgba(43, 41, 45, 0.6);
     }
   }
 
@@ -67,34 +41,156 @@
     opacity: 0.1;
     margin: 0;
   }
+}
 
-  &-links {
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+
+  @include for-large-up {
+    margin: 0;
+    flex-direction: row;
     width: 1140px;
     height: 50px;
     margin: 0 auto;
-    display: flex;
     align-items: center;
+  }
+  .terms {
+    margin-bottom: 31px;
+    font-size: 14px;
 
-    .terms {
+    @include for-large-up {
+      margin: 0;
       line-height: 50px;
-      font-size: 14px;
 
-      &__items {
-        text-decoration: none;
-        margin-right: 22px;
-        color: rgba(43, 41, 45, 0.6);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
-      }
     }
 
-    .social-links {
-      margin-left: auto;
+    &__items {
+      text-decoration: none;
+      margin-right: 22px;
+      color: rgba(43, 41, 45, 0.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .social-links {
+    margin: 0;
 
-      &_item {
+    &_item {
+      margin-right: 20px;
+
+      @include for-large-up {
         margin-left: 20px;
       }
     }
+    @include for-large-up {
+      margin-left: auto;
+    }
+  }
+}
+
+.logo-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include for-large-up {
+    display: none;
+  }
+  &__image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  &__text {
+    @include for-large-down {
+      text-align: center;
+    }
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+}
+
+@include for-large-down {
+  .logo-footer {
+    display: none;
+  }
+}
+
+.downloads {
+  margin-top: 31px;
+
+  @include for-large-down {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  @include for-large-up {
+    margin-top: 25px;
+  }
+
+  &__item {
+    margin-right: 10px;
+  }
+}
+
+.adsitional-navigation {
+  margin: 30px 15px;
+  @include for-large-up {
+    margin: 0;
+    margin-top: 60px;
+    margin-left: auto;
+    display: flex;
+
+    &__column {
+      margin-right: 29px;
+    }
+  }
+  .nav-links {
+    width: 265px;
+
+    &__title {
+      margin-bottom: 18px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+
+      @include for-large-up {
+        margin: 0;
+      }
+    }
+    &__list {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(43, 41, 45, 0.6);
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 18px;
+    }
+  }
+}
+
+.line-mobile {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.line-desktop {
+  @include for-large-down {
+    display: none;
   }
 }
