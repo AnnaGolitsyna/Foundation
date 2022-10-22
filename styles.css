@@ -265,6 +265,11 @@
 @media screen and (max-width: 399px) {
   .headline__actions .headline__action-button {
     width: 100%;
+  }
+}
+@media screen and (max-width: 399px) {
+  .headline__actions .headline__action-button:last-child {
+    width: 100%;
     margin-top: 15px;
   }
 }
@@ -730,11 +735,13 @@
 }
 @media screen and (min-width: 400px) {
   .audience__subtitle {
+    margin: 0;
     padding-top: 108px;
     margin-bottom: 24px;
   }
 }
 .audience__title {
+  margin: 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -774,6 +781,7 @@
 .audience__gallery {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 30px 15px 0 15px;
   padding-bottom: 50px;
 }
