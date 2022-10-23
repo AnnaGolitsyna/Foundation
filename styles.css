@@ -808,12 +808,22 @@
 .audience__user-cards .user-card__image {
   margin-top: 22px;
 }
+@media screen and (min-width: 400px) {
+  .audience__user-cards .user-card__image {
+    margin-top: 21px;
+  }
+}
 .audience__user-cards .user-card__name {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
   margin-top: 22px;
+}
+@media screen and (min-width: 400px) {
+  .audience__user-cards .user-card__name {
+    margin-top: 20px;
+  }
 }
 
 * {
