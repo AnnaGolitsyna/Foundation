@@ -147,7 +147,8 @@
 }
 
 .adsitional-navigation {
-  margin: 30px 15px;
+  margin: 30px 15px 0 15px;
+
   @include for-large-up {
     margin: 0;
     margin-top: 60px;
@@ -162,6 +163,7 @@
     width: 265px;
 
     &__title {
+      margin: 0;
       margin-bottom: 18px;
       font-weight: 700;
       font-size: 22px;
@@ -180,6 +182,7 @@
       padding: 0;
       margin: 0;
       margin-top: 18px;
+      margin-bottom: 30px;
     }
   }
 }

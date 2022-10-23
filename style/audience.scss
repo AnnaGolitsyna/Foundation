@@ -53,7 +53,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 30px;
 
     @include for-large-up {
@@ -65,7 +65,7 @@
   &__actions {
     .audience__action-button {
       @include for-large-down {
-        margin-bottom: 15px;
+        margin-bottom: 12px;
         width: 100%;
       }
     }
@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 15px 0 15px;
+    margin: 34px 15px 0 15px;
     padding-bottom: 50px;
 
     @include for-large-up {
@@ -107,9 +107,19 @@
       border-radius: 8px;
       margin-bottom: 15px;
 
+      &:hover {
+        background: #3141c5;
+        box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+        color: #ffffff;
+      }
+
       @include for-large-up {
         margin: 0;
         margin-right: 31px;
+        &:last-child {
+          margin-right: 0;
+        }
+
       }
 
       &_image {
