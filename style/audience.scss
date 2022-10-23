@@ -119,14 +119,10 @@
         &:last-child {
           margin-right: 0;
         }
-
       }
 
       &__image {
         margin-top: 22px;
-        @include for-large-up {
-          margin-top: 21px;
-        }
       }
 
       &__name {
@@ -135,9 +131,6 @@
         line-height: 28px;
         text-align: center;
         margin-top: 22px;
-        @include for-large-up {
-          margin-top: 20px;
-        }
       }
     }
   }
