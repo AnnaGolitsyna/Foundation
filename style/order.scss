@@ -4,7 +4,7 @@
 
 .order {
   padding: 50px 15px;
-  background: #f4f5f7;
+  background: $background-color-light-gray;
   display: flex;
   flex-direction: column;
 
@@ -15,11 +15,17 @@
     align-items: flex-start;
   }
   &__details {
-    max-width: 555px;
+    // max-width: 290px;
+    margin: auto;
+
+    @include for-large-up {
+      margin: 0;
+      max-width: 555px;
+    }
   }
 
   &__illustration {
-    max-width: 200px;
+
     margin: auto;
 
     @include for-large-up {
@@ -65,18 +71,17 @@
     line-height: 13px;
     text-align: center;
     &::placeholder {
-      color: #2b292d;
+      color: $color-primary-black;
     }
     @include for-large-up {
       margin-top: 0;
     }
   }
 
-  
   .action__button {
     width: 160px;
     height: 48px;
-    color: #fff;
+    color: $background-color-white;
     font-weight: 700;
     font-size: 18px;
     line-height: 13px;
@@ -111,12 +116,12 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-secondary-gray;
     @include for-large-up {
       margin-top: 10px;
     }
   }
   &__terms-link {
-    color: #3142c6;
+    color: $color-blue;
   }
 }

@@ -12,15 +12,14 @@
     flex-direction: column;
 
     @include for-large-up {
-
-        flex-direction: row;
-        width: 1140px;
-        height: 338px;
-        margin: 0 auto;
-
+      flex-direction: row;
+      width: 1140px;
+      height: 338px;
+      margin: 0 auto;
     }
     .about-company {
       margin-top: 44px;
+      // margin-bottom: 59px;
     }
   }
   &__description {
@@ -32,13 +31,14 @@
       font-size: 18px;
       width: 360px;
       margin-top: 26px;
-      color: rgba(43, 41, 45, 0.6);
+      margin-bottom: 25px;
+      color: $color-secondary-gray;
     }
   }
 
   &-line {
     width: 100%;
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid;
     opacity: 0.1;
     margin: 0;
   }
@@ -64,13 +64,12 @@
     @include for-large-up {
       margin: 0;
       line-height: 50px;
-
     }
 
     &__items {
       text-decoration: none;
       margin-right: 22px;
-      color: rgba(43, 41, 45, 0.6);
+      color: $color-secondary-gray;
       font-weight: 400;
       font-size: 14px;
       line-height: 22px;
@@ -151,8 +150,10 @@
 
   @include for-large-up {
     margin: 0;
-    margin-top: 60px;
-    margin-left: auto;
+    margin: 60px 0 59px auto;
+    // margin-top: 60px;
+    // margin-bottom: 59px;
+    // margin-left: auto;
     display: flex;
 
     &__column {
@@ -170,18 +171,17 @@
       line-height: 28px;
 
       @include for-large-up {
-        margin: 0;
+        // margin: 0;
       }
     }
     &__list {
       font-weight: 400;
       font-size: 18px;
       line-height: 30px;
-      color: rgba(43, 41, 45, 0.6);
+      color: $color-secondary-gray;
       list-style-type: none;
       padding: 0;
       margin: 0;
-      // margin-top: 18px;
       margin-bottom: 30px;
     }
   }
