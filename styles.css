@@ -731,7 +731,7 @@
 @media screen and (min-width: 400px) {
   .audience__subtitle {
     margin: 0;
-    padding-top: 110px;
+    padding-top: 109px;
     margin-bottom: 24px;
   }
 }
@@ -764,7 +764,7 @@
 @media screen and (min-width: 400px) {
   .audience__description {
     max-width: 555px;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 399px) {
@@ -784,7 +784,7 @@
   .audience__gallery {
     margin: 0;
     flex-direction: row;
-    margin: 130px 111px 0 131px;
+    margin: 111px 131px 0 130px;
     padding-bottom: 110px;
     justify-content: center;
   }
