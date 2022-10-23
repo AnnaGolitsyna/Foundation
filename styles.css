@@ -267,6 +267,7 @@
 @media screen and (max-width: 399px) {
   .headline__actions .headline__action-button:last-child {
     width: 100%;
+    margin-top: 15px;
   }
 }
 .headline__banner {
@@ -730,7 +731,7 @@
 @media screen and (min-width: 400px) {
   .audience__subtitle {
     margin: 0;
-    padding-top: 108px;
+    padding-top: 110px;
     margin-bottom: 24px;
   }
 }
@@ -783,7 +784,7 @@
   .audience__gallery {
     margin: 0;
     flex-direction: row;
-    margin-top: 111px;
+    margin: 130px 111px 0 131px;
     padding-bottom: 110px;
     justify-content: center;
   }
