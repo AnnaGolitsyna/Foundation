@@ -18,7 +18,7 @@
 }
 
 .learn-more-button {
-  width: 158px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-weight: 700;
@@ -55,7 +55,7 @@
 }
 
 .learn-more-button {
-  width: 158px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-weight: 700;
@@ -219,7 +219,7 @@
 }
 
 .learn-more-button {
-  width: 158px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-weight: 700;
@@ -336,7 +336,7 @@
 }
 
 .learn-more-button {
-  width: 158px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-weight: 700;
@@ -565,7 +565,7 @@
 }
 
 .learn-more-button {
-  width: 158px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-weight: 700;
@@ -707,7 +707,7 @@
 }
 
 .learn-more-button {
-  width: 158px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-weight: 700;
@@ -738,87 +738,82 @@
   }
 }
 .audience__subtitle {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
   text-align: center;
   margin-bottom: 17px;
   padding-top: 50px;
+  line-height: 34px;
+  font-weight: 700;
+  font-size: 22px;
 }
 @media screen and (min-width: 400px) {
   .audience__subtitle {
     margin: 0;
-    padding-top: 109px;
     margin-bottom: 24px;
+    padding-top: 109px;
   }
 }
 .audience__title {
   margin: 0;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: -0.357143px;
   margin-bottom: 18px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.357143px;
 }
 @media screen and (min-width: 400px) {
   .audience__title {
-    font-size: 56px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
     margin-bottom: 30px;
     max-width: 555px;
+    line-height: 56px;
+    font-size: 56px;
+    letter-spacing: -0.5px;
   }
 }
 .audience__description {
   margin: 0;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-  text-align: center;
   margin-bottom: 30px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
 }
 @media screen and (min-width: 400px) {
   .audience__description {
-    max-width: 555px;
     margin-bottom: 30px;
+    max-width: 555px;
   }
 }
-@media screen and (max-width: 399px) {
-  .audience__actions .audience__action-button {
-    margin-bottom: 12px;
-    width: 100%;
-  }
+.audience__action-button {
+  margin-top: 12px;
 }
 .audience__user-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 15px 0 15px;
+  margin: 40px 15px 0 15px;
   padding-bottom: 50px;
 }
 @media screen and (min-width: 400px) {
   .audience__user-cards {
     margin: 0;
-    flex-direction: row;
     margin: 111px 131px 0 130px;
     padding-bottom: 110px;
+    flex-direction: row;
     justify-content: center;
   }
 }
 .audience__user-cards .user-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
+  margin-bottom: 15px;
   padding-bottom: 33px;
-  width: 290px;
+  text-align: center;
+  min-width: 290px;
   height: 300px;
+  border-radius: 8px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  margin-bottom: 15px;
 }
 .audience__user-cards .user-card:hover {
   background: #3141c5;
@@ -827,23 +822,21 @@
 }
 @media screen and (min-width: 400px) {
   .audience__user-cards .user-card {
-    width: 262px;
     margin: 0;
     margin-right: 30px;
+    width: 262px;
   }
   .audience__user-cards .user-card:last-child {
     margin-right: 0;
   }
 }
 .audience__user-cards .user-card__image {
-  margin-top: 22px;
+  margin: 22px auto;
 }
 .audience__user-cards .user-card__name {
-  font-weight: 700;
-  font-size: 22px;
   line-height: 28px;
-  text-align: center;
-  margin-top: 22px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 * {
