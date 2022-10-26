@@ -3,18 +3,18 @@
 @import 'breakpoints.scss';
 
 .header {
-  height: 64px;
-  width: 100%;
-  background-color:$background-color-white;
   display: flex;
   align-items: center;
   padding-left: 15px;
+  height: 64px;
+  width: 100%;
+  background-color: $background-color-white;
 
   @include for-large-up {
+    display: flex;
+    margin: auto;
     width: 1140px;
     height: 62px;
-    margin: auto;
-    display: flex;
     background: transparent;
   }
 

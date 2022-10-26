@@ -3,19 +3,19 @@
 @import 'breakpoints.scss';
 
 .order {
-  padding: 50px 15px;
-  background: $background-color-light-gray;
   display: flex;
   flex-direction: column;
+  padding: 50px 15px;
+  background: $background-color-light-gray;
 
   @include for-large-up {
     flex-direction: row;
-    padding: 73px 0 72px 0;
     justify-content: center;
     align-items: flex-start;
+    padding: 73px 0 72px 0;
   }
+
   &__details {
-    // max-width: 290px;
     margin: auto;
 
     @include for-large-up {
@@ -25,33 +25,35 @@
   }
 
   &__illustration {
-
     margin: auto;
 
     @include for-large-up {
       margin: 0;
-      max-width: 269px;
       margin-right: 121px;
+      max-width: 269px;
     }
   }
 
   &__title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
     text-align: center;
-    letter-spacing: -0.25px;
     margin-top: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.25px;
   }
+
   &__text {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
     margin-top: 18px;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 400;
+
     @include for-large-up {
       margin-top: 12px;
     }
   }
+
   &__form {
     @include for-large-up {
       display: flex;
@@ -59,68 +61,48 @@
     }
   }
   &__email {
+    text-align: center;
     margin: 0;
     margin-top: 40px;
-    background: #ffffff;
-    border: 1px solid rgba(43, 41, 45, 0.2);
-    border-radius: 2px;
     height: 48px;
     width: 100%;
+    line-height: 13px;
+    border-radius: 2px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 13px;
-    text-align: center;
+    background: #ffffff;
+    border: 1px solid rgba(43, 41, 45, 0.2);
     &::placeholder {
       color: $color-primary-black;
     }
+
     @include for-large-up {
       margin-top: 0;
     }
   }
 
-  .action__button {
-    width: 160px;
-    height: 48px;
-    color: $background-color-white;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    border: none;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 0.00001) 100%
-      ),
-      #3040c4;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 4px 6px rgb(0 0 0 / 5%),
-      inset 0px 1px 0px rgb(255 255 255 / 10%);
-    border-radius: 2px;
-  }
-
-  .order__button {
-    @include for-large-down {
-      width: 100%;
-    }
-  }
   &__button {
     margin-top: 12px;
 
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
+      max-width: 160px;
       flex-shrink: 0;
     }
   }
+
   &__terms {
+    line-height: 22px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 22px;
     color: $color-secondary-gray;
+
     @include for-large-up {
       margin-top: 10px;
     }
   }
+
   &__terms-link {
     color: $color-blue;
   }
