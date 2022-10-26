@@ -64,7 +64,14 @@
       display: flex;
       margin-top: 58px;
     }
+  }
 
+  &__action-button {
+    margin-top: 15px;
+
+    @include for-large-up {
+      margin-top: 0;
+    }
   }
 
   &__banner {

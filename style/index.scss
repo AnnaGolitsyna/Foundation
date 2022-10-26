@@ -30,3 +30,12 @@ html {
     min-height: 100vh;
   }
 }
+
+.top-section {
+  background-color: $background-color-pink;
+
+  @include for-large-up {
+    background-color: $background-color-pink;
+    padding-top: 39px;
+  }
+}
