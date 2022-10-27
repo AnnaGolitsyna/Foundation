@@ -102,14 +102,12 @@
   }
 
   &__terms {
+    margin: 0;
+    margin-top: 10px;
     line-height: 22px;
     font-weight: 400;
     font-size: 14px;
     color: $color-secondary-gray;
-
-    @include for-large-up {
-      margin-top: 10px;
-    }
   }
 
   &__terms-link {

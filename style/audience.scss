@@ -67,15 +67,15 @@
   }
 
   &__user-cards {
-    margin: 40px 15px 0 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 40px 15px 0 15px;
     padding-bottom: 50px;
 
     @include for-large-up {
       margin: 0;
-      margin: 111px 131px 0 130px;
+      margin: 110px 130px 0 130px;
       padding-bottom: 110px;
       flex-direction: row;
       justify-content: center;
@@ -110,6 +110,9 @@
 
       &__image {
         margin: 22px auto;
+        @include for-large-up {
+          margin: 22px auto 20px auto;
+        }
       }
 
       &__name {
