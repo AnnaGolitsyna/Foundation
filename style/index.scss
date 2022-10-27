@@ -19,17 +19,16 @@ html {
 .page {
   width: 100vw;
   overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  .page {
-    width: 1400px;
-    margin: auto;
+  @include for-large-up {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 1400px;
     min-height: 100vh;
   }
 }
+
 
 .top-section {
   background-color: $background-color-pink;

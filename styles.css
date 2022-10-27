@@ -781,9 +781,9 @@
   }
 }
 .audience__title {
+  text-align: center;
   margin: 0;
   margin-bottom: 18px;
-  text-align: center;
   line-height: 40px;
   font-size: 40px;
   font-weight: 700;
@@ -799,9 +799,9 @@
   }
 }
 .audience__description {
+  text-align: center;
   margin: 0;
   margin-bottom: 18px;
-  text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
@@ -824,18 +824,18 @@
 }
 @media screen and (min-width: 400px) {
   .audience__user-cards {
+    flex-direction: row;
+    justify-content: center;
     margin: 0;
     margin: 110px 130px 0 130px;
     padding-bottom: 110px;
-    flex-direction: row;
-    justify-content: center;
   }
 }
 .audience__user-cards .user-card {
+  text-align: center;
   margin: 0;
   margin-bottom: 15px;
   padding-bottom: 33px;
-  text-align: center;
   width: 290px;
   height: 300px;
   border-radius: 8px;
@@ -852,6 +852,12 @@
   .audience__user-cards .user-card:last-child {
     margin-right: 0;
   }
+}
+.audience__user-cards .user-card:hover {
+  background: #3141c5;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  color: #ffffff;
+  cursor: pointer;
 }
 .audience__user-cards .user-card__image {
   margin: 22px auto;
@@ -881,16 +887,16 @@ html {
   width: 100vw;
   overflow-x: hidden;
 }
-
 @media screen and (min-width: 400px) {
   .page {
-    width: 1400px;
-    margin: auto;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 1400px;
     min-height: 100vh;
   }
 }
+
 .top-section {
   background-color: #f3c6bd;
 }
