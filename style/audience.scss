@@ -94,9 +94,9 @@
       box-shadow: $box-shadow-light;
 
       &:hover {
-        background: #3141c5;
-        box-shadow: $box-shadow-dark;
-        color: #ffffff;
+        // background: #3141c5;
+        // box-shadow: $box-shadow-dark;
+        // color: #ffffff;
       }
 
       @include for-large-up {

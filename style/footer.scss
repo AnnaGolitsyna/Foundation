@@ -18,7 +18,7 @@
     .about-company {
       .logo-footer {
         text-align: center;
-       
+
         @include for-large-up {
           display: flex;
           text-align: left;
@@ -116,18 +116,14 @@
 
       .nav-links {
         &__title {
+          margin: 0;
           line-height: 28px;
           font-size: 22px;
           font-weight: 700;
           color: $color-primary-black;
-
-          @include for-large-up {
-            margin: 0;
-          }
         }
         &__list {
           padding: 0;
-          list-style: none;
           line-height: 38px;
           font-size: 18px;
           color: $color-secondary-gray;
