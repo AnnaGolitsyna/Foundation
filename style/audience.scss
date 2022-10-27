@@ -50,14 +50,14 @@
 
   &__description {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     text-align: center;
     line-height: 34px;
     font-size: 24px;
     font-weight: 400;
 
     @include for-large-up {
-      margin-bottom: 30px;
+      margin-bottom: 22px;
       max-width: 555px;
     }
   }
@@ -67,10 +67,10 @@
   }
 
   &__user-cards {
+    margin: 40px 15px 0 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 15px 0 15px;
     padding-bottom: 50px;
 
     @include for-large-up {

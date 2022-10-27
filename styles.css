@@ -300,7 +300,7 @@
   }
 }
 .headline__actions {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 @media screen and (min-width: 400px) {
   .headline__actions {
@@ -392,7 +392,6 @@
 }
 .footer-navigation .about-company .logo-footer {
   text-align: center;
-  margin-top: 20px;
 }
 @media screen and (min-width: 400px) {
   .footer-navigation .about-company .logo-footer {
@@ -643,7 +642,13 @@
   font-weight: 700;
   letter-spacing: -0.25px;
 }
+@media screen and (min-width: 400px) {
+  .order__title {
+    margin-top: 33px;
+  }
+}
 .order__text {
+  margin: 0;
   margin-top: 18px;
   line-height: 32px;
   font-size: 22px;
@@ -799,7 +804,7 @@
 }
 .audience__description {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -807,7 +812,7 @@
 }
 @media screen and (min-width: 400px) {
   .audience__description {
-    margin-bottom: 30px;
+    margin-bottom: 22px;
     max-width: 555px;
   }
 }
@@ -815,10 +820,10 @@
   margin-top: 12px;
 }
 .audience__user-cards {
+  margin: 40px 15px 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px 15px 0 15px;
   padding-bottom: 50px;
 }
 @media screen and (min-width: 400px) {

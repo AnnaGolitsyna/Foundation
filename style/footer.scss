@@ -18,8 +18,7 @@
     .about-company {
       .logo-footer {
         text-align: center;
-        margin-top: 20px;
-
+       
         @include for-large-up {
           display: flex;
           text-align: left;
