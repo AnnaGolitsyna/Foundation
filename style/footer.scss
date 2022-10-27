@@ -3,198 +3,190 @@
 @import 'breakpoints.scss';
 
 .footer {
-  margin-top: auto;
-  display: flex;
-  flex-direction: column;
+  margin-top: 40px;
+
+  @include for-large-up {
+    margin: 0;
+  }
 
   &-navigation {
+    @include for-large-up {
+      display: flex;
+      margin: 0;
+      margin-left: 130px;
+    }
+    .about-company {
+      .logo-footer {
+        text-align: center;
+        margin-top: 20px;
+
+        @include for-large-up {
+          display: flex;
+          text-align: left;
+          margin-top: 43px;
+        }
+
+        &__image {
+          width: 60px;
+          height: 60px;
+        }
+
+        &__text {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin-top: 20px;
+          height: 51px;
+
+          @include for-large-up {
+            align-items: flex-start;
+            margin: 0;
+            margin-left: 16px;
+            margin-top: 5px;
+            width: 222px;
+          }
+
+          &_name {
+            line-height: 25px;
+            font-size: 20px;
+            font-weight: 700;
+            color: $color-primary-black;
+          }
+
+          &_description {
+            line-height: 25px;
+            font-size: 18px;
+            color: $color-secondary-gray;
+          }
+        }
+      }
+
+      .footer__description {
+        display: none;
+
+        @include for-large-up {
+          display: block;
+          margin: 0;
+          margin-top: 26px;
+          width: 360px;
+          height: 85px;
+          line-height: 26px;
+          font-size: 18px;
+          color: $color-secondary-gray;
+        }
+      }
+
+      .downloads {
+        text-align: center;
+        margin-top: 31px;
+
+        @include for-large-up {
+          text-align: left;
+          margin: 0;
+          margin-top: 25px;
+          margin-bottom: 59px;
+        }
+
+        &__item {
+          min-width: 135px;
+          height: 40px;
+
+          &:last-child {
+            margin-left: 10px;
+            min-width: 116px;
+          }
+        }
+      }
+    }
+    .line-mobile {
+      margin-top: 40px;
+
+      @include for-large-up {
+        display: none;
+      }
+    }
+    .adsitional-navigation {
+      margin-top: 30px;
+      margin-left: 15px;
+
+      @include for-large-up {
+        display: flex;
+        margin: 0;
+        margin: 60px 0 47px 126px;
+      }
+
+      .nav-links {
+        &__title {
+          line-height: 28px;
+          font-size: 22px;
+          font-weight: 700;
+          color: $color-primary-black;
+
+          @include for-large-up {
+            margin: 0;
+          }
+        }
+        &__list {
+          padding: 0;
+          list-style: none;
+          line-height: 38px;
+          font-size: 18px;
+          color: $color-secondary-gray;
+
+          @include for-large-up {
+            margin-right: 29px;
+            line-height: 30px;
+            width: 265px;
+            height: 185px;
+          }
+        }
+      }
+    }
+  }
+  .line-desktop {
+    display: none;
+
+    @include for-large-up {
+      display: block;
+    }
+  }
+
+  &-links {
     display: flex;
     flex-direction: column;
+    margin: 30px 0 22px 15px;
 
     @include for-large-up {
       flex-direction: row;
-      width: 1140px;
-      height: 338px;
-      margin: 0 auto;
-    }
-    .about-company {
-      margin-top: 44px;
-      // margin-bottom: 59px;
-    }
-  }
-  &__description {
-    @include for-large-down {
-      display: none;
-    }
-    @include for-large-up {
-      line-height: 26px;
-      font-size: 18px;
-      width: 360px;
-      margin-top: 26px;
-      margin-bottom: 25px;
-      color: $color-secondary-gray;
-    }
-  }
-
-  &-line {
-    width: 100%;
-    border-top: 1px solid;
-    opacity: 0.1;
-    margin: 0;
-  }
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: column;
-  margin-left: 15px;
-
-  @include for-large-up {
-    margin: 0;
-    flex-direction: row;
-    width: 1140px;
-    height: 50px;
-    margin: 0 auto;
-    align-items: center;
-  }
-  .terms {
-    margin-bottom: 31px;
-    font-size: 14px;
-
-    @include for-large-up {
       margin: 0;
-      line-height: 50px;
+      margin: 13px 0 15px 130px;
     }
 
-    &__items {
-      text-decoration: none;
-      margin-right: 22px;
-      color: $color-secondary-gray;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-    }
-  }
-  .social-links {
-    margin: 0;
+    .terms {
+      display: flex;
+      justify-content: space-between;
+      width: 180px;
 
-    &_item {
-      margin-right: 20px;
-
-      @include for-large-up {
-        margin-left: 20px;
+      &__items {
+        text-decoration: none;
+        height: 22px;
+        font-size: 14px;
+        line-height: 22px;
+        color: $color-secondary-gray;
       }
     }
-    @include for-large-up {
-      margin-left: auto;
-    }
-  }
-}
 
-.logo-mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @include for-large-up {
-    display: none;
-  }
-  &__image {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px;
-  }
-  &__text {
-    @include for-large-down {
-      text-align: center;
-    }
-  }
-
-  &__name {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  &__description {
-    font-size: 18px;
-    line-height: 25px;
-    opacity: 0.6;
-  }
-}
-
-@include for-large-down {
-  .logo-footer {
-    display: none;
-  }
-}
-
-.downloads {
-  margin-top: 31px;
-
-  @include for-large-down {
-    text-align: center;
-    padding-bottom: 40px;
-  }
-
-  @include for-large-up {
-    margin-top: 25px;
-  }
-
-  &__item {
-    margin-right: 10px;
-  }
-}
-
-.adsitional-navigation {
-  margin: 30px 15px 0 15px;
-
-  @include for-large-up {
-    margin: 0;
-    margin: 60px 0 59px auto;
-    // margin-top: 60px;
-    // margin-bottom: 59px;
-    // margin-left: auto;
-    display: flex;
-
-    &__column {
-      margin-right: 29px;
-    }
-  }
-  .nav-links {
-    width: 265px;
-
-    &__title {
-      margin: 0;
-      margin-bottom: 18px;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 28px;
+    .social-links {
+      margin-top: 30px;
 
       @include for-large-up {
-        // margin: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: 132px;
+      }
+      &__item {
+        margin-right: 20px;
       }
     }
-    &__list {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 30px;
-      color: $color-secondary-gray;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      margin-bottom: 30px;
-    }
-  }
-}
-
-.line-mobile {
-  @include for-large-up {
-    display: none;
-  }
-}
-
-.line-desktop {
-  @include for-large-down {
-    display: none;
   }
 }
