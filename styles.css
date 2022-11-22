@@ -10,6 +10,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .action__button {
@@ -23,10 +24,11 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
+  background-color: #fff;
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .learn-more-button {
@@ -54,6 +56,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .action__button {
@@ -67,10 +70,11 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
+  background-color: #fff;
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .learn-more-button {
@@ -211,6 +215,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .action__button {
@@ -224,10 +229,11 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
+  background-color: #fff;
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .learn-more-button {
@@ -343,6 +349,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .action__button {
@@ -356,10 +363,11 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
+  background-color: #fff;
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .learn-more-button {
@@ -461,6 +469,7 @@
 .footer-navigation .about-company .downloads__item {
   min-width: 135px;
   height: 40px;
+  text-decoration: none;
 }
 .footer-navigation .about-company .downloads__item:last-child {
   margin-left: 10px;
@@ -495,6 +504,7 @@
 .footer-navigation .adsitional-navigation .nav-links__list {
   padding: 0;
   line-height: 38px;
+  list-style-type: none;
   font-size: 18px;
   color: rgba(43, 41, 45, 0.6);
 }
@@ -564,6 +574,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .action__button {
@@ -577,10 +588,11 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
+  background-color: #fff;
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .learn-more-button {
@@ -640,6 +652,7 @@
 @media screen and (min-width: 400px) {
   .order__title {
     margin-top: 33px;
+    text-align: left;
   }
 }
 .order__text {
@@ -720,6 +733,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .action__button {
@@ -733,10 +747,11 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
-  background-blend-mode: overlay, normal;
+  background-color: #fff;
+  cursor: pointer;
 }
 @media screen and (min-width: 400px) {
   .learn-more-button {
@@ -881,11 +896,11 @@ html {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: #2b292d;
+  overflow-x: hidden;
 }
 
 .page {
   width: 100vw;
-  overflow-x: hidden;
 }
 @media screen and (min-width: 400px) {
   .page {

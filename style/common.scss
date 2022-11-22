@@ -11,6 +11,7 @@
     #3040c4;
   background-blend-mode: overlay, normal;
   box-shadow: $box-shadow-light;
+  cursor: pointer;
 
   @include for-large-up {
     width: 160px;
@@ -23,11 +24,12 @@
   line-height: 13px;
   font-weight: 700;
   font-size: 18px;
+  border: none;
   border-radius: 2px;
   color: #3040c4;
-  background: $background-linear-gradient;
-  background-blend-mode: overlay, normal;
-
+  background-color: $background-color-white;
+  cursor: pointer;
+  
   @include for-large-up {
     width: 158px;
     margin: 0 0 0 10px;
