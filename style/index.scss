@@ -18,8 +18,8 @@ html {
 }
 
 .page {
-  width: 100vw;
-  
+  overflow: hidden;
+
   @include for-large-up {
     display: flex;
     flex-direction: column;
