@@ -18,7 +18,6 @@ html {
 }
 
 .page {
-  overflow: hidden;
 
   @include for-large-up {
     display: flex;
