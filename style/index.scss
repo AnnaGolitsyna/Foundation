@@ -18,16 +18,14 @@ html {
 }
 
 .page {
-
   @include for-large-up {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 1400px;
+    min-width: 1400px;
     min-height: 100vh;
   }
 }
-
 
 .top-section {
   background-color: $background-color-pink;

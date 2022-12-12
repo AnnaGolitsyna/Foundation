@@ -26,7 +26,8 @@
 
   &__illustration {
     margin: auto;
-
+    max-width: 200px;
+    
     @include for-large-up {
       margin: 0;
       margin-right: 121px;
