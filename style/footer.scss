@@ -112,14 +112,17 @@
           padding: 0;
           line-height: 38px;
           list-style-type: none;
-          font-size: 18px;
-          color: $color-secondary-gray;
 
           @include for-large-up {
             margin-right: 29px;
             line-height: 30px;
             width: 265px;
             height: 185px;
+          }
+          &-item {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-secondary-gray;
           }
         }
       }
@@ -194,15 +197,17 @@
 
         &_icon-twitter {
           background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png');
+          background-repeat: no-repeat;
         }
         &_icon-facebook {
           background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
+          background-repeat: no-repeat;
         }
         &_icon-linkedin {
           background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png');
+          background-repeat: no-repeat;
         }
       }
     }
   }
-
 }
